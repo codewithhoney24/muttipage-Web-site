@@ -395,3 +395,135 @@ padding: 20px;
 .fade-in {
   animation: fadeIn 1.5s ease-in-out; /* Animation duration and easing */
 }
+
+
+@media (max-width: 680px) {
+  .header {
+    flex-direction: row; /* Keep header in a single row */
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px; /* Small padding for compact height */
+  }
+
+  .header .logo {
+    padding-top: 8px;
+    font-size: 12px; /* Smaller font size for logo */
+  }
+
+  .header nav {
+    flex-direction: row; /* Nav items stay in a row */
+    gap: 4px; /* Reduce space between links */
+    font-size: 10px; /* Smaller font size for nav links */
+  }
+
+  .cart-icon {
+    font-size: 16px; /* Further reduce icon size */
+    margin: 0; /* Remove extra margin */
+  }
+
+  .hero {
+     height: auto;
+      width: 100%;
+      /* Ensure the hero section fits within the viewport */
+      max-width: 320px; /* Prevent it from exceeding screen width */
+      padding: 10px;
+      height: 100%; /* Automatically adjust height based on content */
+      text-align: center;
+      margin: 0 auto; /* Center-align the hero section */
+      overflow: hidden;
+  }
+
+  .hero h1 {
+    font-size: 10px; /* Smaller font size for title */
+    padding-left: 22px;
+  }
+
+  .hero p {
+    margin-bottom: 20%;
+    font-size: 8px; /* Smaller font size for description */
+    padding-left: 20px;
+  }
+
+  .hero-button {
+    margin-top: 40%;
+    width: 50px;
+    padding: 3px 5px; /* Compact button padding */
+    font-size: 8px; /* Smaller font size for button text */
+  }
+  footer{
+  
+    
+    padding: 6px;
+    text-align: center; /* Center footer text */
+
+  }
+  footer p {
+    font-size: 10px; /* Smaller font size for footer text */
+  }
+}
+
+
+@media (max-width: 320px ) and (max-width: 480px) {
+  .header {
+    flex-direction: row; /* Keep header in a single row */
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px; /* Small padding for compact height */
+  }
+
+  .header .logo {
+    padding-top: 8px;
+    font-size: 12px; /* Smaller font size for logo */
+  }
+
+  .header nav {
+    flex-direction: row; /* Nav items stay in a row */
+    gap: 4px; /* Reduce space between links */
+    font-size: 10px; /* Smaller font size for nav links */
+  }
+
+  .cart-icon {
+    font-size: 16px; /* Further reduce icon size */
+    margin: 0; /* Remove extra margin */
+  }
+
+  .hero {
+     height: auto;
+      width: 100; /* Ensure the hero section fits within the viewport */
+      max-width: 320px; /* Prevent it from exceeding screen width */
+      padding: 10px;
+      height: 100%; /* Automatically adjust height based on content */
+      text-align: center;
+      margin: 0 auto; /* Center-align the hero section */
+      overflow: hidden;
+  }
+
+  .hero h1 {
+    font-size: 10px; /* Smaller font size for title */
+    padding-left: 22px;
+  }
+
+  .hero p {
+    margin-bottom: 20%;
+    font-size: 8px; /* Smaller font size for description */
+    padding-left: 20px;
+  }
+
+  .hero-button {
+    margin-top: 40%;
+    width: 50px;
+    padding: 3px 5px; /* Compact button padding */
+    font-size: 8px; /* Smaller font size for button text */
+  }
+  footer{
+  
+    
+    padding: 6px;
+    text-align: center; /* Center footer text */
+
+  }
+  footer p {
+    font-size: 10px; /* Smaller font size for footer text */
+  }
+}
+
