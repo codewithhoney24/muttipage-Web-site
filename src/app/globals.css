@@ -73,7 +73,7 @@ footer{
 }
 
 .hero{
-  
+ width: 100%; 
  color: azure;
  background-size: cover;
  background-position: center;
@@ -86,7 +86,6 @@ footer{
  padding-left: 80px;
  background-size: 100%; /* Maintains aspect ratio */
 background-repeat: no-repeat; /* No repeating */
-background-position: center; /* Center the image */
 
   
 }
@@ -124,6 +123,7 @@ background-position: center; /* Center the image */
 /* ==============================About===================================*/
 
 .about{
+  width: 100%;
   background-size: cover;
   height: 100vh;
   background-position:center;
@@ -338,6 +338,8 @@ background-position: center; /* Center the image */
   align-items: center;
 }
 .hero{
+  background-size: cover;
+ background-position: center;
   height: 70vh;
   padding: 20px;
   text-align: center;
@@ -349,7 +351,7 @@ background-position: center; /* Center the image */
   font-size: 18px;
 }
 .hero-button{
-  width: 100%;
+
   padding: 12px;
   font-size: 16px;
 }
@@ -397,6 +399,11 @@ padding: 20px;
 }
 
 
+
+
+
+
+
 @media (max-width: 680px) {
   .header {
     flex-direction: row; /* Keep header in a single row */
@@ -422,10 +429,13 @@ padding: 20px;
   }
 
   .hero {
-     height: auto;
+    background-size: 100%; /* Maintains aspect ratio */
+    background-size: cover;
+ background-position: center;
+     min-height: 100vh;
       width: 100%;
       /* Ensure the hero section fits within the viewport */
-      max-width: 320px; /* Prevent it from exceeding screen width */
+       /* Prevent it from exceeding screen width */
       padding: 10px;
       height: 100%; /* Automatically adjust height based on content */
       text-align: center;
@@ -434,22 +444,42 @@ padding: 20px;
   }
 
   .hero h1 {
+    margin-bottom: 30px;
     font-size: 10px; /* Smaller font size for title */
     padding-left: 22px;
   }
 
   .hero p {
-    margin-bottom: 20%;
+    margin-bottom: 40px;
     font-size: 8px; /* Smaller font size for description */
     padding-left: 20px;
   }
 
   .hero-button {
-    margin-top: 40%;
-    width: 50px;
-    padding: 3px 5px; /* Compact button padding */
-    font-size: 8px; /* Smaller font size for button text */
+    
+    position: relative; /* Ensure the button can be moved relative to its normal position */
+    margin-top: auto;   /* Push the button upward */
+    margin-bottom:200px ; /*60px Add spacing below the button */
+    padding: 3px 6px; 
+    text-align: center;
+    font-size: 8px;
+  
   }
+
+
+
+  .about{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position:center;
+    padding:80px  20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color: rgb(251, 254, 254);
+  }
+  
   footer{
   
     
@@ -488,8 +518,11 @@ padding: 20px;
   }
 
   .hero {
-     height: auto;
-      width: 100; /* Ensure the hero section fits within the viewport */
+    background-size: 100%; /* Maintains aspect ratio */
+    background-size: cover;
+ background-position: center;
+     min-height: 100vh;
+      width: 100%; /* Ensure the hero section fits within the viewport */
       max-width: 320px; /* Prevent it from exceeding screen width */
       padding: 10px;
       height: 100%; /* Automatically adjust height based on content */
@@ -499,22 +532,41 @@ padding: 20px;
   }
 
   .hero h1 {
+    margin-bottom: 30px;
     font-size: 10px; /* Smaller font size for title */
     padding-left: 22px;
   }
 
   .hero p {
-    margin-bottom: 20%;
+    margin-bottom: 40px;
     font-size: 8px; /* Smaller font size for description */
     padding-left: 20px;
   }
 
   .hero-button {
-    margin-top: 40%;
-    width: 50px;
-    padding: 3px 5px; /* Compact button padding */
-    font-size: 8px; /* Smaller font size for button text */
+    position: relative; /* Ensure the button can be moved relative to its normal position */
+    margin-top: auto;   /* Push the button upward */
+    margin-bottom:200px ; /*60px Add spacing below the button */
+    padding: 3px 6px; 
+    text-align: center;
+    font-size: 8px;
+  
+    
+    
   }
+
+  .about{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position:center;
+    padding:80px  20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color: rgb(251, 254, 254);
+  }
+  
   footer{
   
     
