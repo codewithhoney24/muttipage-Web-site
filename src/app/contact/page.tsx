@@ -15,7 +15,7 @@ const Contact = () => {
           <input type="email" placeholder="Email Address" required />
           <input type="text" placeholder="Phone Number" />
           <textarea placeholder="Your Message" rows={5} required />
-          <button type="submit">Send Message</button>
+          <button  className='contact-button' type="submit">Send Message</button>
         </form>
       </section>
     </div>
