@@ -1,18 +1,40 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div>
-      <section className='hero'  style={{backgroundImage: "url(red3.jpg)"}}>
-        <div>
-          <h1 className='fade-in'>Welcome to the Home Decor</h1>
-          <p>Transform your space with elegance and style</p>
-          <button className='hero-button'>Shop Now</button>
-          </div>
+   < div>
+      
+      
+      
 
-      </section>
+      {/* Right Section */}
+      <div className='hero-container'>
+      <div className="hero-box">
+
+         {/* Left Section */}
+      <div className='hero-left-div'>
+         <h1 className="fade-in">Discover Our Home Decor</h1>
+        <p>We offer a wide range of styles and materials</p>
+        <button className="hero-button">Discover Now</button>
+        </div>
+
+
+
+        <div className="image-container">
+  <Image
+    src="/red3.jpg"
+    width={450}
+    height={350}
+    alt="Home Decor"
+    className="styled-image fade-in"
+  />
+</div>
+      </div>
     </div>
-  )
-}
+  </div>
 
-export default Home
+  );
+};
+
+export default Home;
