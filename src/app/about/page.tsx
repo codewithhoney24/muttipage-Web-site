@@ -1,18 +1,45 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <div>
-      <section className='about'  style={{backgroundImage: "url(red-chair1.jpg)"}}>
-        <div className='about-content'>
-            <h2  className='fade-in'>About Us</h2>
-            <p> At Luxe Home Décor, we believe in transforming houses into homes with high-quality,
-        stylish, and affordable décor items. Our mission is to bring elegance to every corner of your
-        living space.</p>
+    <div className='about-container'>
+      {/* Outer container */}
+      <div className='about-box'>
+        {/* Left section */}
+        <div className='about-image-container'>
+          <Image 
+            src="/resize1.jpg"
+            width={300}
+            height={380}
+            alt="picture"
+             className="about-styled-image fade-in"
+          />
         </div>
-      </section>
+
+        {/* Right section */}
+        <div className="about-right-div">
+          <h2 className="fade-in">About Us</h2>
+          <p className='about-para'>
+          At Luxe Home Décor, we believe in transforming houses into homes with high-quality and affordable décor items. Our mission is to bring elegance to every corner your living space. We pride ourselves on offering carefully curated collection of furniture, lighting, artwork, and accessories that cater to a variety of tastes and styles.
+          </p>
+          <button className="about-button">About Now</button>
+        </div>
+
+
+        <div className='about-image2-container'>
+          <Image 
+            src="/red-chair1.jpg"
+            width={300}
+            height={380}
+            alt="picture"
+             className="about-styled2-image fade-in"
+          />
+        </div>
+
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default About;
