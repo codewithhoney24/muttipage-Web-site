@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <p>
+        < p   className='footer-para'>
             &copy; 2024,Home Decor. All Rights Reserved.
         </p>
     </footer>
