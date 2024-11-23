@@ -351,46 +351,6 @@ footer{
   }
 }
 
-/* Responsive Styles for Mobile Screens */
-@media (max-width: 480px) {
-  .hero-container {
-    padding: 20px;
-    margin-left: 15px;
-  }
-
-  .hero-box {
-    flex-direction: column;
-    width: 100%;
-    padding: 20px;
-  }
-
-  h1 {
-    margin-left: 15%;
-    font-size: 24px;
-  }
-
-  p {
-    margin-left: 15%;
-    font-size: 14px;
-  }
-
-  .hero-button {
-    margin-bottom: 30px;
-    margin-left: 35%;
-    padding: 8px 12px;
-    font-size: 12px;
-  }
-
-  .image-container {
-    margin: 15px auto;
-  }
-
-  .styled-image {
-    width: 100%; /* Full width for small screens */
-    height: auto; /* Maintain aspect ratio */
-  }
-}
-
 
 /* Responsive Styles for Very Small Screens (320px) */
 @media (max-width: 320px) {
@@ -737,7 +697,7 @@ h2{
   
   .contact-form {
     width: 80%;
-    height: 100%;
+    
     display: flex; /* Ensures child elements align properly */
     flex-direction: column; /* Aligns items in a column */
     gap: 15px; /* Adds spacing between inputs */
@@ -765,6 +725,50 @@ h2{
     font-size: 10px; /* Smaller font size for footer text */
   }
 }
+
+
+
+/* Responsive Styles for Mobile Screens */
+@media (max-width: 480px) {
+  .hero-container {
+    padding: 20px;
+    margin-left: 15px;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1 {
+    margin-left: 15%;
+    font-size: 24px;
+  }
+
+  p {
+    margin-left: 15%;
+    font-size: 14px;
+  }
+
+  .hero-button {
+    margin-bottom: 30px;
+    margin-left: 35%;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .image-container {
+    margin: 15px auto;
+  }
+
+  .styled-image {
+    width: 100%; /* Full width for small screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
 
 
 
