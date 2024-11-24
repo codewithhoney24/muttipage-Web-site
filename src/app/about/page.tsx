@@ -9,7 +9,7 @@ const About = () => {
         {/* Left section */}
         <div className='about-image-container'>
           <Image 
-            src="/redg.jpg"
+            src="/redgw.jpg"
             width={380}
             height={380}
             alt="picture"
