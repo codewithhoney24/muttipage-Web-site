@@ -475,6 +475,9 @@ max-width: 300px;
 .about-styled-image:hover {
   transform: scale(1.05); 
 }
+.about-styled2-image:hover {
+  transform: scale(1.05); 
+}
 h2{
   
   font-size: 32px;
