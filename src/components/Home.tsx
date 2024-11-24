@@ -24,7 +24,7 @@ const Home = () => {
         <div className="image-container">
   <Image
     src="/red3.jpg"
-    width={450}
+    width={400}
     height={350}
     alt="Home Decor"
     className="styled-image fade-in"
