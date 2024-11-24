@@ -9,8 +9,8 @@ const About = () => {
         {/* Left section */}
         <div className='about-image-container'>
           <Image 
-            src="/resize1.jpg"
-            width={300}
+            src="/redg.jpg"
+            width={380}
             height={380}
             alt="picture"
              className="about-styled-image fade-in"
@@ -29,7 +29,7 @@ const About = () => {
 
         <div className='about-image2-container'>
           <Image 
-            src="/red-chair1.jpg"
+            src="/redf.jpg"
             width={300}
             height={380}
             alt="picture"
